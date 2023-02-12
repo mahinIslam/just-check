@@ -21,34 +21,37 @@
   <body>
     <header>
       <div class="header-menu">
-        <div class="container-fluid d-flex  justify-content-sm-around">
+        <div class="container-fluid">
           <div class="row ">
            <!--nav-->
-           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <nav class="navbar navbar-expand-lg navbar-light bg-light ">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <a class="navbar-brand" href="#">
-                    <img src="images/logo2.png" width="30" height="30" class="d-inline-block align-top " alt="">
+                    <img src="images/logo2.png" width="40" height="50" class=" align-top " alt="">
                   </a>
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0 gap-2 ">
+              <ul class="navbar-nav  mr-auto mt-2 mt-lg-0 gap-2  d-flex">
                 <li class="nav-item active">
-                  <a class="nav-link" href="Home">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="header-banner">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="Services">Services</a>
+                  <a class="nav-link" href="container">Services</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="Cases">Cases</a>
+                    <a class="nav-link" href="Client-section">Cases</a>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link" href="Blog">Blog</a>
+                    <a class="nav-link" href="quetion-section">Blog</a>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link" href="Contact Us">Contact Us</a>
+                    <a class="nav-link" href="contact-section">Contact Us</a>
                   </li>
-                  <button class="btn btn-warning my-2 my-sm-0 " type="submit">Search</button>
+                  <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Free Consultation
+                  </button>
+                  
                
               </ul>
             </div>
@@ -101,10 +104,9 @@
     <!--end-->
     <main>
      <section class="container">
-      <div
-      class=" text-center py-4 " 
+      <div class=" Services text-center py-4 " 
     >
-      <h3 class="">
+      <h3 class="Services">
           The Legal Practice Area
         </h3>
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
@@ -427,9 +429,9 @@
             <div class="d-flex  align-items-center justify-content-center">
               <div class="row row-cols-1 row-cols-md-2 g-0">
                 <div class="col">
-                  <div class="card align-items-center justify-content-center bg-light">
+                  <div class="card align-items-center justify-content-center bg-light ">
                     <img src="images/address.png" width="20" height="20"  class=" align-top " alt="">
-                    <div class="card-body">
+                    <div class="card-body ">
                       <h5 class="card-title text-center">Address</h5>
                       <p class="card-text">
                         A108 Adam Street,<br>
@@ -502,6 +504,9 @@
         <div class="container-fluid">
           <div class="row row-cols-4">
             <div class="footer-about">
+              <a class="footer-brand" href="#">
+                <img src="images/logo.png" width="40" height="50" class=" align-top " alt="">
+              </a>
               <h3 class="title-sm text-white">About</h3>
               <p class="text text-white text-center">
                 
@@ -511,22 +516,22 @@
   
             <div class="grid-col-4 g-2  footer-links">
               <h3 class="title-sm text-white ">Usefull Links</h3>
-              <ul >
+              <ul class="text ">
                 <li>
-                  <a href="#Home">homes</a>
+                  <a href="#">homes</a>
                 </li>
                 <li>
-                  <a href="#About Us">About Us</a>
+                  <a href="#">About Us</a>
                 </li>
                 <li>
-                  <a href="#Cases">Cases</a>
+                  <a href="#">Cases</a>
                 </li>
   
                 <li>
-                  <a href="#Blog">Blog</a>
+                  <a href="#">Blog</a>
                 </li>
                 <li>
-                  <a href="#Contact Us">Contact US</a>
+                  <a href="#">Contact US</a>
                 </li>
               </ul>
             </div>
